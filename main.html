@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Twinkle Design</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap");
+      body {
+        font-family: "Inter", sans-serif;
+      }
+    </style>
+  </head>
+  <body class="bg-gradient-to-br from-[#F8F6FC] to-[#ECEFF4] min-h-screen">
+    <!-- Navbar -->
+    <header class="bg-white py-4">
+      <div class="container mx-auto px-6 flex items-center justify-between">
+        <div class="text-2xl font-bold flex items-center">
+          <div class="w-6 h-6 bg-black rounded-full mr-2"></div>
+          <span>twinkle</span>
+        </div>
+        <nav class="space-x-6">
+          <a href="#" class="text-gray-600 hover:text-black">Course</a>
+          <a href="#" class="text-gray-600 hover:text-black">Subscription</a>
+          <a href="#" class="text-gray-600 hover:text-black">Contact</a>
+          <a href="#" class="text-gray-600 hover:text-black">About Us</a>
+        </nav>
+        <div class="space-x-4">
+          <a href="#" class="text-gray-600 hover:text-black">Sign in</a>
+          <button class="px-4 py-2 bg-black text-white rounded">
+            Get started
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+     <!-- row > col -->
+    <section class=" overflow-hidden flex flex-row min-h-screen">
+      <div class=" container mx-auto flex relative">
+        <div class="max-w-6xl flex flex-col items-start justify-evenly">
+          <h1 class="text-8xl font-light leading-tight text-gray-800 mb-6">
+            We help our clients develop their<br />
+            <span class="underline decoration-blue-500">career skills</span>.
+          </h1>
+          <div class="max-w-lg relative">
+            <img
+            src="/o.png"
+            class="-z-10 w-80 rotate-[81deg] h-80 absolute bottom-0 left-full"
+          />
+            <p class="text-2xl text-gray-600 mb-6">
+              Make payments using the banking system without the hassle. "My
+              payments are finally bankyfied!"
+            </p>
+            <button
+              class="px-6 py-3 bg-black text-white rounded hover:bg-gray-800"
+            >
+              Get started
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div>
+        <img src="/subtle_02.png" class="absolute right-0 bottom-0" />
+        <img
+          src="/thewoman.png"
+          alt="Smiling person"
+          class="absolute bottom-0 rounded-lg right-28 h-4/5"
+        />
+        <img src="/subtle-01.png" class="absolute right-52 -z-10" />
+
+      </div>
+    </section>
+  </body>
+</html>
